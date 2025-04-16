@@ -24,7 +24,7 @@ Nikahub Control Plane is designed to:
 - Reduce complexity in onboarding, tracking, and scaling new tenants.
 - Maintain operational transparency and security using AWS-native services.
 
-This solution helps organizations avoid reinventing foundational infrastructure, so engineering teams can spend less time on DevOps overhead and more time building valuable user features.
+This solution helps avoid reinventing foundational infrastructure, so engineering teams can spend less time on DevOps overhead and more time building valuable user features.
 
 ---
 
@@ -49,23 +49,23 @@ Below is a high-level overview of the core directories and services in the proje
 
 ## ✨ Key Features
 
-### ✅ Tenant Management
+### Tenant Management
 - Automated provisioning and teardown of tenant environments  
 - Centralized visibility into tenant configurations and resource usage  
 
-### ⚙️ Scalable Infrastructure
+### Scalable Infrastructure
 - Supports AWS services like ECS, Lambda, and RDS  
 - Follows Infrastructure-as-Code (IaC) practices for consistent deployments  
 
-### 📊 Operational Insights
+### Operational Insights
 - Integrates with CloudWatch and other observability tools  
 - Optional cost tracking for resource allocation and optimization  
 
-### 🔒 Security & Compliance
+### Security & Compliance
 - Fine-grained IAM controls for tenant isolation  
 - Encrypted data management and secure resource access  
 
-### 🧩 Extensibility
+### Extensibility
 - Microservices architecture allows independent module updates  
 - Event-driven design using AWS SNS and Lambda for workflow automation  
 
@@ -84,14 +84,14 @@ As a result, I've cut down tenant provisioning time from **days or hours to just
 
 ---
 
-## 🪪 License
+## 🔗 License
 
 This project is licensed under the **Apache-2.0 License**.  
 It includes adaptations from [AWS SaaS Boost](https://github.com/awslabs/aws-saas-boost), which is also licensed under Apache-2.0.
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 Special thanks to **AWS SaaS Boost**, which provided the foundational architecture and inspiration for this work.
 
